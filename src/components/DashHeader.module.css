@@ -1,0 +1,55 @@
+.wrapper img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: white;
+    border-radius: 10px;
+    padding: 10px 2rem;
+}
+.title h2 {
+    color: rgba(113, 99, 186, 255);
+}
+
+.user_info {
+    display: flex;
+    align-items: center;
+}
+
+.user_info a {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background: rgb(237, 237, 237);
+    border-radius: 15px;
+    color: rgba(113, 99, 186, 255);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 12px;
+}
+
+.search input {
+    background: transparent;
+    padding: 10px;
+}
+
+.icon {
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}

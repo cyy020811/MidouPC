@@ -1,0 +1,38 @@
+.in_stock {
+    color: rgb(57, 226, 38);
+}
+
+.out_of_stock {
+    color: red;
+}
+
+.icon {
+    font-size: 2rem;
+    background: white;
+}
+
+.product_table_button {
+    padding: 0.25em;
+    font-size: 1.5rem;
+}
+
+.product_table_cell {
+    text-align: left;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.product_table_cell:last-child {
+    display: grid;
+    place-content: center;
+    text-align: left;
+}
+
+.product_table_cell_out_of_stock {
+    text-align: left;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    color: red;
+}

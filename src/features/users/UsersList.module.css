@@ -1,0 +1,36 @@
+.search_bar {
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.search_bar input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 8px;
+}
+
+.search_bar select {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    margin-left: 2rem;
+    border-radius: 8px;
+}
+
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+    white-space: nowrap;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.search_bar button {
+    background-color: transparent;
+    padding: 1rem;
+}

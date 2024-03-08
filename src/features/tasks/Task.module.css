@@ -1,0 +1,59 @@
+.task_card {
+    width: 100%;
+    padding: 15px 25px;
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    border: 2px solid rgb(190, 190, 190);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.task_details {
+    display: flex;
+    align-items: center;
+}
+
+.task_details img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.text {
+    margin-left: 2.3rem;
+}
+
+.task_card h1 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.text span {
+    color: rgb(116, 112, 112);
+}
+
+.completed {
+    color: rgb(57, 226, 38);
+}
+
+.opened {
+    color: red;
+}
+
+.status_edit {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 2rem;
+    background: white;
+}

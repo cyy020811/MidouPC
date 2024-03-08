@@ -1,0 +1,177 @@
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.main_title {
+    font-weight: bold;
+    color: rgba(113, 99, 186, 255);
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+.urgent_card {
+    background: rgb(251, 233, 233);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s, ease-in-out;
+}
+
+.urgent_card:hover {
+    transform: translateY(-5px);
+}
+
+.card_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.urgent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.urgent_value {
+    font-size: 24px;
+}
+
+.urgent_icon {
+    color: white;
+    padding: 1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: red;
+}
+
+.incomplete {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.incomplete_card {
+    background: rgb(254, 226, 254);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s, ease-in-out;
+}
+
+.incomplete_card:hover {
+    transform: translateY(-5px);
+}
+
+.incomplete_icon {
+    color: white;
+    padding: 1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: purple;
+}
+
+.incomplete_value {
+    font-size: 24px;
+}
+
+.completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.completed_card {
+    background: rgb(235, 254, 235);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s, ease-in-out;
+}
+
+.completed_card:hover {
+    transform: translateY(-5px);
+}
+
+.completed_icon {
+    color: white;
+    padding: 1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: green;
+}
+
+.completed_value {
+    font-size: 24px;
+}
+
+.monthly_completed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.monthly_completed_card {
+    background: rgb(236, 236, 254);
+    border-radius: 10px;
+    padding: 1.2rem;
+    width: 260px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.5s, ease-in-out;
+}
+
+.monthly_completed_card:hover {
+    transform: translateY(-5px);
+}
+
+.monthly_completed_icon {
+    color: white;
+    padding: 1rem;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    background: blue;
+}
+
+.monthly_completed_value {
+    font-size: 24px;
+}

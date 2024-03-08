@@ -1,0 +1,30 @@
+.icon {
+    font-size: 2rem;
+    background: white;
+}
+
+.customer_table_button {
+    padding: 0.25em;
+    font-size: 1.5rem;
+}
+
+.customer_table_cell {
+    text-align: left;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.customer_table_cell:last-child {
+    display: grid;
+    place-content: center;
+    text-align: left;
+}
+
+.customer_table_cell_out_of_stock {
+    text-align: left;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    color: red;
+}

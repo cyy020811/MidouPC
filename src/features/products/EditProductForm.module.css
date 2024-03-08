@@ -1,0 +1,126 @@
+.form_container {
+    background: white;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.75em;
+    max-width: 800px;
+}
+
+.form_checkbox_container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 0.5em;
+}
+
+.form_persist {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 0.5em;
+}
+
+.form_title_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form_input,
+.form_submit_button {
+    padding: 0.5em;
+    border-radius: 15px;
+}
+
+.input_text {
+    min-height: 150px;
+}
+
+.input_incomplete {
+    border: 1px solid #f00;
+    outline: 1px solid #f00;
+}
+
+.input_complete {
+    border: 1px solid black;
+    outline: 1px solid black;
+}
+
+.form_action_buttons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5em;
+    position: absolute;
+    right: 0.5em;
+}
+
+.form_row {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2em;
+}
+
+.form_divider {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5em;
+}
+
+.form_container input {
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.form_container select {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.save_button {
+    margin-top: 1rem;
+    font-size: large;
+    color: white;
+    background: rgba(113, 99, 186, 255);
+    border-radius: 5px;
+    padding: 2px 10px;
+    transition: all 0.3s ease-in;
+}
+
+.save_button:hover {
+    background: purple;
+    transition: all 0.3s ease-in;
+}
+
+.delete_button {
+    margin-top: 1rem;
+    font-size: large;
+    color: black;
+    background: lightgray;
+    border-radius: 5px;
+    padding: 2px 10px;
+}
+
+.buttons_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.form_container select {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.form_container textarea {
+    border-radius: 10px;
+    padding: 1rem;
+}
